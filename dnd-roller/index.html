@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+  <title>D12 Roller</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Import map for bare module specifiers used by Three.js examples and cannon-es -->
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.152.2/build/three.module.js",
+      "cannon-es": "https://cdn.skypack.dev/cannon-es@0.20.0"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="result"></div>
+  <button id="roll">Roll the dice</button>
+
+  <!-- main.js as module -->
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
